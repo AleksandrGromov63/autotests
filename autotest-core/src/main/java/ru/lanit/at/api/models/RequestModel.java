@@ -1,6 +1,7 @@
 package ru.lanit.at.api.models;
 
-import com.google.gson.GsonBuilder;
+
+import io.cucumber.messages.internal.com.google.gson.GsonBuilder;
 
 public class RequestModel {
 

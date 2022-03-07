@@ -36,6 +36,14 @@ public class WebActionSteps {
         LOGGER.info("клик на элемент по тексту '{}'", text);
     }
 
+    @Когда("кликнуть на ссылку по тексту {string}")
+    public void clickLinkWithText(String text) {
+        $(Selectors.byPartialLinkText(text))
+                .shouldBe(Condition.visible)
+                .click();
+        LOGGER.info("клик на элемент по тексту '{}'", text);
+    }
+
     @Если("кликнуть на элемент {string}")
     public void clickOnElement(String elementName) {
         SelenideElement element = pageManager

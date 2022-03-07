@@ -1,0 +1,15 @@
+{
+  "due_date": "${due_date}",
+  "title": "${title}",
+  "created": "${created}",
+  "modified": "${modified}",
+  "submitter_email": "${submitter_email}",
+  "status": "${status}",
+  "on_hold": "${on_hold}",
+  "description": "${description}",
+  "resolution": "${resolution}",
+  "priority": "${priority}",
+  "secret_key": "${secret_key}",
+  "queue": "${queue}",
+  "kbitem": "${kbitem}"
+}
